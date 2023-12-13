@@ -5,96 +5,80 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="style.css" />
 
-    <!-- ROBOTO CDN -->
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
-      href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400&display=swap"
-      rel="stylesheet"
-    />
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,400;1,900&display=swap"
+      href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,900;1,900&family=Roboto:ital,wght@0,300;0,400;1,900&display=swap"
       rel="stylesheet"
     />
 
     <title>Flexbox challenge 4</title>
   </head>
   <body>
-    <div class="body-wrapper">
-      <div class="page-1">
-        <div class="page-1__texts">
-          <h1>Lorem ipsum dolor</h1>
-          <h2>Responsive layouts don’t have to be a struggle</h2>
+    <section class="intro">
+      <div class="container">
+        <p class="intro__text">lorem ipsum sit</p>
+        <h1 class="intro__title">
+          Responsive layouts don’t <br />
+          have to be a struggle
+        </h1>
+      </div>
+    </section>
+
+    <section class="section-one">
+      <div class="container">
+        <h2 class="section-title">Quality Designs</h2>
+        <div class="row">
+          <p class="col">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+            eiusmod tempor incididunt ut labore et dolore magna aliqua. Dui
+            vivamus arcu felis bibendum ut tristique. Arcu dui vivamus arcu
+            felis. Sociis natoque penatibus et magnis dis.
+          </p>
+          <p class="col">
+            Felis donec et odio pellentesque diam volutpat. Aliquam purus sit
+            amet luctus venenatis. Turpis in eu mi bibendum neque egestas congue
+            quisque egestas. Pellentesque sit amet porttitor eget dolor morbi
+            non.
+          </p>
         </div>
       </div>
+    </section>
 
-      <div class="page-2">
-        <div class="content">
-          <h1 class="page-2__heading general-header">Quality Designs</h1>
-          <div class="page-2__texts flex-2-column">
-            <h2 class="general-texts">
-              Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eveniet
-              doloremque autem, vel facere eos eius animi natus tempore nisi,
-              eligendi blanditiis odio ad recusandae molestias ipsum corrupti
-              perferendis ex numquam? Lorem, ipsum dolor sit amet consectetur
-              adipisicing elit. Qui, in? Lorem ipsum, dolor sit amet consectetur
-              adipisicing elit. Culpa, quidem?
-            </h2>
-            <h2 class="general-texts">
-              Lorem ipsum, dolor sit amet consectetur adipisicing elit.
-              Laboriosam culpa dignissimos, maxime enim repellat quidem debitis
-              id. Et, adipisci voluptas placeat nobis illo vitae quibusdam.
-              Fugiat, reprehenderit ad corporis nisi hic iusto quibusdam
-              explicabo nobis. Porro delectus ea minus reprehenderit. Lorem
-              ipsum, dolor sit amet consectetur adipisicing elit. Culpa, quidem?
-            </h2>
-          </div>
+    <section class="section-two">
+      <div class="container row">
+        <div class="col">
+          <h2 class="section-title">Made custom for you</h2>
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+            eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
+            ad minim veniam.
+          </p>
+        </div>
+        <div class="col">
+          <img src="./assets/image-01.jpg" alt="Sunset on desert with person" />
         </div>
       </div>
+    </section>
 
-      <div class="page-3">
-        <div class="content flex-2-column">
-          <div class="half-container">
-            <h1 class="general-header">Made custom for you</h1>
-            <h2 class="general-texts">
-              Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eveniet
-              doloremque autem, vel facere eos eius animi natus tempore nisi,
-              eligendi blanditiis odio ad recusandae molestias ipsum corrupti
-              perferendis ex numquam? Lorem, ipsum dolor sit amet consectetur
-              adipisicing elit. Qui, in? Lorem ipsum, dolor sit amet consectetur
-              adipisicing elit. Culpa, quidem?
-            </h2>
-          </div>
+    <section class="section-three">
+      <div class="container row">
+        <div class="col">
           <img
-            class="page-3__img"
-            src="/assets/image-01.jpg"
-            alt="Man Standing on mountain"
+            src="./assets/image-02.jpg"
+            alt="Sunset on mountains with tree"
           />
         </div>
-      </div>
-
-      <div class="page-4">
-        <div class="content flex-2-column">
-          <img
-            class="page-4__img"
-            src="/assets/image-02.jpg"
-            alt="Sun and mountain"
-          />
-          <div class="half-container">
-            <h1 class="general-header">Made custom for you</h1>
-            <h2 class="general-texts">
-              Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eveniet
-              doloremque autem, vel facere eos eius animi natus tempore nisi,
-              eligendi blanditiis odio ad recusandae molestias ipsum corrupti
-              perferendis ex numquam? Lorem, ipsum dolor sit amet consectetur
-              adipisicing elit. Qui, in? Lorem ipsum, dolor sit amet consectetur
-              adipisicing elit. Culpa, quidem?
-            </h2>
-          </div>
+        <div class="col">
+          <h2 class="section-title">Created with care</h2>
+          <p>
+            Felis donec et odio pellentesque diam volutpat. Aliquam purus sit
+            amet luctus venenatis. Turpis in eu mi bibendum neque egestas congue
+            quisque egestas. Pellentesque sit amet porttitor eget dolor morbi
+            non.
+          </p>
         </div>
       </div>
-    </div>
+    </section>
   </body>
 </html>
